@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-part1 h3{
+    font-size: 17px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+#nav-part1 i{
+    font-size: 17px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#nav h1{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+#nav button{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 17x;
+    font-weight: 600;
+}
+#btn2{
+    background-color: orangered;
+    color: white;
+}
+#heading{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 410px;
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-21deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-14deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-7deg);
+}
+#left-btm{
+    position: absolute;
+    bottom:30px;
+    left: 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#logo1{
+    position: absolute;
+    bottom: 35px;
+    right: 110px;
+}
+#logo2{
+    position: absolute;
+    bottom: 35px;
+    right: 80px;
+}
+#logo3{
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+}
+#right-btm{
+    position: absolute;
+    bottom: 12px;
+    right: 30px;
+}
+#arrow{
+    position: absolute;
+    bottom: 30px;
+    left: 850px;
+    border: 2px solid black;
+    padding: 5px ;
+    border-radius: 50px;
+}
